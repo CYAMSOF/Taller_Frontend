@@ -201,7 +201,7 @@ video {
 
 .titulo-menu {
     padding-top: 2%;
-    margin-top:-1%;
+    margin-top: -1%;
     color: #FEDB10;
     background-color: #05050532;
     margin-left: 0;
@@ -256,7 +256,7 @@ video {
 }
 
 .carousel {
-    
+
     border-radius: 0.8%;
     border: #000000;
     height: 62%;
@@ -278,7 +278,7 @@ video {
 
 .cards-container {
     margin-top: -4%;
-    margin-right:6%;
+    margin-right: 6%;
     margin-left: 4%;
     display: flex;
     transition: transform 0.5s;
@@ -358,16 +358,16 @@ video {
 
 .container_white {
 
-    padding-top:0%;
+    padding-top: 0%;
     width: 48%;
     margin-top: -30%;
     margin-left: -40px;
     margin-bottom: 44%;
-    justify-content:center center;
+    justify-content: center center;
 }
 
 .container_white p {
-    margin-top:-26%;
+    margin-top: -26%;
     text-align: justify;
     text-justify: auto;
     margin-left: 1%;
@@ -381,11 +381,12 @@ video {
 
 }
 
-.parrafo_nosotros{
-color: aliceblue;
-font-size: 34px;
+.parrafo_nosotros {
+    color: aliceblue;
+    font-size: 34px;
 
 }
+
 .h3 {
     margin-top: 4%;
     margin-left: 24%;
@@ -396,18 +397,19 @@ font-size: 34px;
 
 
 }
-.nuestras{
+
+.nuestras {
     color: #fdfbfb;
     font-size: 1.6;
-    
+
 
 }
 
 
 
-h2.they{
-   
- 
+h2.they {
+
+
     border-radius: 2%;
     margin-top: 4%;
     padding-left: -2%;
@@ -436,14 +438,14 @@ h2.they{
 }
 
 .img2 {
-    
+
     max-width: 180%;
-    position:relative;
-    margin-top:-22%;
+    position: relative;
+    margin-top: -22%;
     left: 58.5%;
     height: 110%;
     min-height: 100%;
-    
+
 }
 
 
@@ -452,8 +454,8 @@ h2.they{
 
     width: 15%;
     margin-left: 17%;
-    margin-top:10%;
-    
+    margin-top: 10%;
+
 
 }
 
@@ -581,7 +583,7 @@ hr {
 
 /*FOOTER*/
 footer {
-    
+
     background-color: #000000;
     width: 100%;
     height: 180px;
@@ -981,13 +983,13 @@ footer i:hover {
         display: flex;
         align-items: center;
         justify-content: right-end;
-        width: 99%;
+        width: 100%;
 
 
 
     }
-        
-    .titulo{
+
+    .titulo {
         width: 100%;
         margin-left: -4%;
     }
@@ -996,7 +998,7 @@ footer i:hover {
         margin-top: 0.8%;
         padding: 6%;
         color: #FEDB10;
-        font-size: 18px;
+        font-size: 16px;
 
     }
 
@@ -1009,8 +1011,9 @@ footer i:hover {
 
     li {
         margin-top: 2.5%;
+        align-items: flex-end;
+        padding: 4%;
 
-        padding: 3.5%;
 
     }
 
@@ -1263,103 +1266,7 @@ footer i:hover {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        font-size: 0.8rem;
 
-    }
-
-    nav {
-
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        width: 99%;
-
-
-
-    }
-
-    .fa-magnifying-glass {
-        margin-top: 0.8%;
-        padding: 6%;
-        color: #FEDB10;
-        font-size: 18px;
-
-    }
-
-    ul {
-        padding-right: 8%;
-        margin-left: 0%;
-        justify-items: center center;
-
-    }
-
-    li {
-        margin-top: 2.5%;
-
-        padding: 2.5%;
-
-    }
-
-    a {
-
-        padding: 6%;
-        margin-right: 42%;
-        text-decoration: none;
-        color: #FEDB10;
-        font-size: 1.2rem;
-
-    }
-
-
-
-    /*INICIO SECCION INICIO*/
-
-
-    .logo {
-        margin-left: 32%;
-
-        width: 148%;
-
-    }
-
-    .slogan {
-        margin-bottom: 2%;
-
-        width: 540px;
-        margin-top: 4%;
-        background-color: #07070766;
-        padding-left: 4px;
-        text-align: center;
-        display: inline-block;
-        margin-left: 185px;
-
-        width: 80%;
-
-    }
-
-    .slogan h1 {
-        font-size: 2.2rem;
-        padding-right: 4%;
-        padding-left: 8%;
-
-        margin-left: 2%;
-
-        margin-top: 1%;
-        margin-bottom: 2%;
-        margin-left: 1%;
-
-        text-align: left;
-
-
-
-    }
-
-    .descripcion {
-        width: 120%;
-        font-size: 2.4rem;
-        margin-left: 64%;
-    }
 
     .contenedor_video video {
         min-width: 100%;
@@ -1370,13 +1277,13 @@ footer i:hover {
 
     /*INICIO SECCION MENÚ*/
     .titulo-menu {
-        padding-left: 0.5%;
+        padding-left: 8.5%;
         font-size: 2.3rem;
         margin-left: 1%;
     }
 
     .card img {
-        width: 82%;
+        width: 80%;
     }
 
     .card h1 {
@@ -1385,16 +1292,18 @@ footer i:hover {
     }
 
     .cards-container {
-
-        gap: 1.4%;
-        margin-left: 1.5%;
+        background-color: #0c0c0c48;
+        gap: 2%;
+        margin-left: 2.5%;
         margin-right: 6%;
+
     }
 
     .carousel {
-        width: 82%;
+
+        width: 80%;
         margin-left: 10%;
-        background-color: rgba(0, 0, 0, 0.368);
+        background-color: rgba(6, 6, 6, 0.127);
         margin-top: 28%;
         height: 55%;
         padding: 2%;
@@ -1409,20 +1318,21 @@ footer i:hover {
 
 
     .pedirahora {
-        width: 86%;
-        padding-right: 8%;
+        width: 80%;
+        padding-right: 2%;
         margin-top: 4%;
-        font-size: 0.4rem;
+        font-size: 0.6rem;
         padding: 1%;
     }
 
     .cards-container P {
-        width: 82%;
+        width: 80%;
         font-size: 1.5rem;
         margin-left: 10%;
         height: 30%;
         padding: 4%;
         align-content: normal;
+        font-family: 'Ysabeau Infant', sans-serif;
     }
 
     .card {
@@ -1431,10 +1341,10 @@ footer i:hover {
 
     .prev-button,
     .next-button {
-        margin-top: 2%;
+        margin-top: 1%;
         font-size: 30px;
-        margin-left: -1px;
-        margin-right: -1px;
+        margin-left: 34px;
+        margin-right: 36px;
     }
 
     /*SECCCIÓN NOSOTROS*/
@@ -1451,45 +1361,46 @@ footer i:hover {
 
     .parrafo_nosotros {
 
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding-right: 4%;
         padding-left: 2%;
     }
 
 
     .h3 {
-        font-size: 12px;
+        font-size: 21px;
         margin-left: 2%;
         margin-top: 4%;
 
     }
 
     .they {
-        font-size: 14px;
+        margin-top: 2%;
+        font-size: 8px;
 
     }
 
     .they-container {
-        margin-left: 6%;
-        margin-top: 2%;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
 
 
     }
 
 
     .Alma {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .img2 {
         width: 42%;
         margin-top: -19%;
-        height: 140%;
+        height: 160%;
         margin-right: 0%;
     }
 
     .slogan_logo2 {
-        width: 14%;
+        width: 18%;
         margin-left: 22%;
         margin-top: 6%;
         padding-bottom: 2.5%;
@@ -1500,40 +1411,44 @@ footer i:hover {
     /*SECCIÓN CONTACTO */
 
     .estilos-contacto {
-        margin-top: -16%;
+        margin-top: -21%;
 
     }
 
     .contac {
         font-size: 1.6rem;
-        margin-top: -120%;
-        margin-left: 12%;
+        margin-top: 22%;
+        margin-left: -16%;
     }
 
     .form-container {
-        margin-top: -4%;
-        margin-left: -60%;
+        margin-top: 8%;
+        margin-left: -100%;
+        position: relative;
     }
 
     .form-container label {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .form-container input[type="text"],
     .form-container input[type="email"],
     .form-container textarea {
-        padding: 6px;
+        padding: 8px;
     }
 
     .form-container input[type="submit"] {
         padding: 8px 16px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     iframe {
-        margin-left: -210%;
-        width: 120%;
-        height: 38vh;
+        margin-top: 52%;
+        position: absolute;
+        margin-left: -48%;
+        width: 70%;
+        height: 52vh;
+
     }
 
     footer i {
@@ -1542,8 +1457,309 @@ footer i:hover {
     }
 
 
-
 }
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        flex: 0 0 calc(100% /1);
+    }
+
+    footer i {
+        font-size: 42px;
+        padding: 24px;
+    }
+
+    iframe {
+        margin-top: 110%;
+        position: absolute;
+        margin-left: -26%;
+        width: 70%;
+        height: 38vh;
+
+    }
+
+    .contac {
+        font-size: 1.6rem;
+        margin-top: 22%;
+        margin-left: 22%;
+    }
+
+    .form-container {
+        margin-top: 8%;
+        margin-left: -52%;
+        position: relative;
+    }
+
+    .container_white {
+        width: 48%;
+        margin-left: 8%;
+    }
+
+
+
+
+
+    .parrafo_nosotros {
+
+        font-size: 1.4rem;
+        padding-right: 4%;
+        padding-left: 2%;
+        margin-top: -25;
+    }
+
+
+    .h3 {
+        font-size: 12px;
+        margin-left: 2%;
+        padding: 0.5%;
+        margin-top: 0.5%;
+        width: 120%;
+    }
+
+    .they {
+
+        display: none;
+    }
+
+    .they-container {
+        margin-left: -12%;
+        margin-top: 24%;
+        font-size: 10px
+    }
+
+
+
+    .Alma {
+        font-size: 22px;
+    }
+
+    .img2 {
+        width: 42%;
+        margin-top: -19%;
+        height:auto;
+        margin-right: -4%;
+        margin-bottom: -18%;
+    }
+
+    .slogan_logo2 {
+        width: 22%;
+        margin-left: 18%;
+        margin-top: 2%;
+        padding-bottom: -%;
+    }
+
+    body {
+        font-size: 0.8rem;
+
+    }
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+
+
+
+
+    }
+
+    .fa-magnifying-glass {
+        margin-top: 0.9%;
+        padding: 6%;
+        color: #FEDB10;
+        font-size: 18px;
+
+    }
+
+    ul {
+        padding-right: 18%;
+        margin-left: 0%;
+        justify-items: center center;
+
+    }
+
+    li {
+        margin-top: 2%;
+
+        padding: 3.5%;
+
+    }
+
+    a {
+
+        padding: 6%;
+        text-decoration: none;
+        color: #FEDB10;
+        font-size: 1.4rem;
+
+    }
+
+
+
+    /*INICIO SECCION INICIO*/
+
+
+    .logo {
+        margin-left: 22%;
+        width: 90%;
+
+    }
+
+    .slogan {
+        margin-bottom: 2%;
+
+        width: 320px;
+        margin-top: 4%;
+        background-color: #07070766;
+        padding-left: 4px;
+        text-align: center;
+        display: inline-block;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .slogan h1 {
+        font-size: 1.5rem;
+        padding-right: 4%;
+        padding-left: 8%;
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        text-align: left;
+
+
+
+    }
+
+    .descripcion {
+        width: 120%;
+        font-size: 1.9rem;
+        margin-left: 20%;
+    }
+
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: right-end;
+        width: 100%;
+
+
+
+    }
+
+    .titulo {
+        width: 100%;
+        margin-left: -4%;
+    }
+
+    .fa-magnifying-glass {
+        margin-top: 0.4%;
+        padding: 6%;
+        color: #FEDB10;
+        font-size: 16px;
+
+    }
+
+    ul {
+        padding-right: 16%;
+        margin-left: 0%;
+        justify-items: flex-end;
+
+    }
+
+    li {
+        margin-top: 0.5%;
+        align-items: center;
+        padding: 4%;
+
+
+    }
+
+    a {
+
+        padding: 0%;
+        margin-right: 4%;
+        text-decoration: none;
+        color: #FEDB10;
+        font-size: 1.1rem;
+
+    }
+
+    .prev-button,
+    .next-button {
+        margin-top: 1%;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+ 
+ 
+@media only screen and (max-width: 350px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+      }
+      
+      .hamburger {
+        display: none; 
+        cursor: pointer;
+      }
+      
+      .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px 0;
+      }
+      
+      .menu {
+        list-style: none;
+        display: flex;
+      }
+      
+      .menu li {
+        margin-left: 4%;
+      }
+      
+      
+        .hamburger {
+          display: block;
+        }
+      
+        .menu {
+          display: none; 
+        }
+      
+        .menu.active {
+          display: flex; 
+          flex-direction: column;
+          align-items: flex-end;
+          background-color: #f1f1f1;
+          padding: 20px;
+        }
+      }
+      
+     
+    
+  
+  
+
+
+
+
 
 
 
