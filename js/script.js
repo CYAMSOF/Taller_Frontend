@@ -4,6 +4,9 @@ if ('serviceWorker' in navigator) {
     .catch(err => console.warn('Error con el registro del service worker', err))
 }
 
-
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
 
 

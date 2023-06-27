@@ -731,10 +731,6 @@ footer i:hover {
 
 
 
-
-
-
-
     /* Tus estilos aquí para 1500x1080 */
     ul {
         margin-right: 24%;
@@ -1538,7 +1534,7 @@ footer i:hover {
     .img2 {
         width: 42%;
         margin-top: -19%;
-        height:auto;
+        height: auto;
         margin-right: -4%;
         margin-bottom: -18%;
     }
@@ -1661,8 +1657,8 @@ footer i:hover {
     }
 
     .fa-magnifying-glass {
-    margin-top: -1%;
-        
+        margin-top: -1%;
+
     }
 
     ul {
@@ -1696,11 +1692,12 @@ footer i:hover {
         font-size: 25px;
         margin-left: 18px;
         margin-right: 18px;
-    } 
-    
-    .slogan_logo2 { 
+    }
+
+    .slogan_logo2 {
         display: none;
     }
+
     .container_white {
         width: 48%;
         margin-left: 8%;
@@ -1744,13 +1741,13 @@ footer i:hover {
 
     .Alma {
         font-size: 24px;
-    padding-bottom: 2%;
+        padding-bottom: 2%;
     }
 
     .img2 {
         width: 42%;
         margin-top: 0%;
-        height:auto;
+        height: auto;
         margin-right: -4%;
         margin-bottom: -18%;
     }
@@ -1758,242 +1755,279 @@ footer i:hover {
 
 }
 
- 
- 
+/* Estilos para mostrar el menú en pantallas móviles */
+
+
 @media only screen and (max-width: 350px) {
+   
+    .card {
+        flex: 0 0 calc(100% /1);
+    }
 
-    .navbar {
+    footer i {
+        font-size: 32px;
+        padding: 25px;
+        height: 2%;    }
+
+    iframe {
+        margin-top: 160%;
+        position: absolute;
+        margin-left: -6%;
+        width: 70%;
+        height: 38vh;
+
+    }
+
+    .contac {
+        font-size: 1.2rem;
+        margin-top: 22%;
+        margin-left: 58%;
+    }
+
+    .form-container {
+        margin-top: 8%;
+        margin-left: -22%;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .container_white {
+        width: 48%;
+        margin-left: 8%;
+    }
+
+
+
+
+
+    .parrafo_nosotros {
+
+        font-size: 1.4rem;
+        padding-right: 4%;
+        padding-left: 2%;
+        margin-top: -25;
+    }
+
+
+    .h3 {
+        font-size: 12px;
+        margin-left: 2%;
+        padding: 0.5%;
+        margin-top: 0.5%;
+        width: 120%;
+    }
+
+    .they {
+
+        display: none;
+    }
+
+    .they-container {
+        margin-left: -12%;
+        margin-top: 24%;
+        font-size: 10px
+    }
+
+
+
+    .Alma {
+        font-size: 22px;
+    }
+
+    .img2 {
+        width: 42%;
+        margin-top: -19%;
+        height: auto;
+        margin-right: -4%;
+        margin-bottom: -18%;
+    }
+
+    .slogan_logo2 {
+        width: 22%;
+        margin-left: 18%;
+        margin-top: 2%;
+        padding-bottom: -0%;
+    }
+
+    body {
+        font-size: 0.2rem;
+
+    }
+
+    nav {
+
         display: flex;
-        align-items: center;
-        justify-content: flex-end;
+        align-items:baseline;
+        justify-content:center;
         width: 100%;
-      }
-      
-      .hamburger {
-        display: none; 
-        cursor: pointer;
-      }
-      
-      .hamburger .line {
-        width: 30px;
-        height: 3px;
-        background-color: #000;
-        margin: 5px 0;
-      }
-      
-      .menu {
-        list-style: none;
-        display: flex;
-      }
-      
-      .menu li {
-        margin-left: 4%;
-      }
-      
-      
-        .hamburger {
-          display: block;
-        }
-      
-        .menu {
-          display: none; 
-        }
-      
-        .menu.active {
-          display: flex; 
-          flex-direction: column;
-          align-items: flex-end;
-          background-color: #f1f1f1;
-          padding: 20px;
-        }
-      }
-      
-     
-    
-  
-  
 
 
 
 
+    }
+
+    .fa-magnifying-glass {
+        display: none;
+
+    }
+
+    ul {
+        padding-left: 2%;
+        margin-left: 2%;
+        justify-items: center center;
+
+    }
+
+    li {
+        margin-top: 2%;
+
+        padding: 2%;
+        margin-left: 2%;
+
+    }
+
+    a {
+
+        padding: 2%;
+        text-decoration: none;
+        color: #FED10F;
+        font-size: 0.8Srem;
+        margin-left: 0.5%;
+
+    }
 
 
 
-/*
+    /*INICIO SECCION INICIO*/
+
 
     .logo {
-    
-
-        width: 100%;
+        margin-left: 14%;
+        width: 70%;
 
     }
 
     .slogan {
-        margin-right: 40%;
-
-        width: 95%;
-
-    }
-
-    .slogan h1 {
-        font-size: 1rem;
         margin-bottom: 2%;
 
-        width: 520px;
+        width: 220%;
         margin-top: 4%;
         background-color: #07070766;
         padding-left: 4px;
         text-align: center;
         display: inline-block;
-        margin-left: 185px;
-
-        width: 60%;
-
-    }
-
-    nav {
-        flex-direction: column;
+        margin-left: 6%;
+        width: 90%;
 
     }
 
-    ul {
-        flex-direction: column;
+    .slogan h1 {
+        font-size: 1.4rem;
+        padding-right: 4%;
+        padding-left: 8%;
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        text-align: left;
 
-        margin-right: 1%;
 
-        align-items: center;
-
-    }
-
-    a {
-        font-size: 1rem;
 
     }
 
     .descripcion {
-        width: 95%;
-        font-size: 1.5rem;
+        width: 120%;
+        font-size: 1.6rem;
+        margin-left: 16%;
     }
 
-    .contenedor_video video {
-        min-width: 100%;
-        min-height: 100%;
-    }
 
-    span {
-        padding: 16px;
-    }
 
-    .titulo-menu {
-        padding-left: 50px;
-        font-size: 1.8rem;
-    }
-
-    .card img {
+    .titulo {
         width: 100%;
-        margin-top: 10%;
+        margin-left: -4%;
     }
 
-    .card h1,
-    .card p {
-        font-size: 12px;
+    .fa-magnifying-glass {
+        margin-top: -1%;
+
     }
 
-    .carousel {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .titulopizzacarousel {
-        padding-left: 2%;
-    }
-
-    .cards-container {
-        margin-right: 2%;
-        margin-left: 1%;
-    }
-
-    .card {
-        flex: 0 0 100%;
-    }
-
+    
     .prev-button,
     .next-button {
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .container_white {
-        width: 80%;
-        margin-left: 0;
-    }
-
-    .container_white p {
-        font-size: 1.8rem;
-    }
-
-    .parrafo_nosotros {
-        font-size: 24px;
-    }
-
-    .h3 {
-        font-size: 20px;
-        margin-left: 20%;
-    }
-
-    .they {
-        font-size: 1.8rem;
-    }
-
-    .Alma {
-        font-size: 28px;
-    }
-
-    .img2 {
-        width: 80%;
+        margin-top: 1%;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 18px;
     }
 
     .slogan_logo2 {
-        width: 25%;
-        margin-left: 12.5%;
+        display: none;
     }
 
-    .contac {
-        font-size: 1.4rem;
-        margin-top: -100%;
-        margin-left: -50%;
+    .container_white {
+        width: 48%;
+        margin-left: 8%;
+        padding: 2.8%;
+        margin-bottom: 46%;
     }
 
-    .form-container {
-        margin-top: -2%;
-        margin-left: -110%;
+
+
+
+
+    .parrafo_nosotros {
+
+        font-size: 1rem;
+        padding-right: 4%;
+        padding-left: 0%;
+        margin-top: -10;
     }
 
-    .form-container label {
-        font-size: 14px;
-    }
 
-    .form-container input[type="text"],
-    .form-container input[type="email"],
-    .form-container textarea {
-        padding: 4px;
-    }
-
-    .form-container input[type="submit"] {
-        padding: 6px 12px;
-        font-size: 16px;
-    }
-
-    iframe {
-        margin-left: -300%;
+    .h3 {
+        font-size: 0.6rem;
+        margin-left: -14%;
+        padding: 2.%;
+        margin-top: 10%;
         width: 120%;
-        height: 32vh;
     }
 
-    footer i {
-        font-size: 30px;
-        padding: 45px;
+    .they {
+
+        display: none;
     }
+
+    
+    .Alma {
+        font-size: 20px;
+        padding-bottom: 2%;
+        margin-left: -18%;
+    }
+
+    .img2 {
+        width: 42%;
+        margin-top: 0%;
+        height:100%;
+        margin-right: -4%;
+        margin-bottom: -18%;
+    }
+
+     /*INICIO SECCION MENÚ*/
+     .titulo-menu {
+        padding-left: 2.5%;
+        font-size: 1.6rem;
+        margin-left: 8.5%;
+    }
+
+
+
+
+
+
+
+}
+
 
 
